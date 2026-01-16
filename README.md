@@ -6,7 +6,7 @@ A passion project analyzing the 2026 Unrivaled Basketball season. I'm using data
 
 ## Question 1: What Player's Impact Their Teams Most, and How?
 
-Watching the first weeks of the 2026 season of Unrivaled, I wondered which players matter to their team's success more? and is Chelsea Gray's flying form shooting wise is equavilant to Alanna Smith's defensive work? Should Marina Mabery's individual efforts be dismissed just because the Lunar Owls keep losing? so here I am
+Watching the first weeks of the 2026 season of Unrivaled, I wondered which players matter to their team's success most? and is Chelsea Gray's flying form shooting wise is equavilant to Alanna Smith's defensive work? Should Marina Mabery's individual efforts be dismissed just because the Lunar Owls keep losing? so here I am
 
 To get an answer, I built a metric to quantify player impact and decompose it into scoring and rebounding contributions.
 
