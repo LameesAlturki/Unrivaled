@@ -42,7 +42,7 @@ For each player across all games:
 
 ### Results
 
-![Player Impact Composition as of Jan 16](What Player's Impact Their Teams Most, and How?/player_impact_composition.png)
+![Player Impact Composition as of Jan 16](which_players_impact_teams/player_impact_composition.png)
 
 **Key Findings:**
 - Players ranked by average impact per game
