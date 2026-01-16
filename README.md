@@ -40,14 +40,11 @@ For each player across all games:
 - **Impact Ratios**: Percentage of total impact from scoring vs rebounding
 - **Impact Correlations**: Which component (scoring or rebounding) drives their impact variability
 
-### Results
+### Results as of Jan 16
 
-![Player Impact Composition as of Jan 16](which_players_impact_teams/player_impact_composition.png)
-
-**Key Findings:**
-- Players ranked by average impact per game
-- Blue bars show scoring contribution, purple bars show rebounding contribution
-- Reveals which players generate the most impact and through which means
+<p align="center">
+  <img src="which_players_impact_teams/player_impact_composition.png" width="900">
+</p>
 
 ### Notes
 
