@@ -40,10 +40,16 @@ For each player across all games:
 - **Impact Ratios**: Percentage of total impact from scoring vs rebounding
 - **Impact Correlations**: Which component (scoring or rebounding) drives their impact variability
 
-### Results as of Jan 16
+### Results
 
+### As of Jan 16:
 <p align="center">
   <img src="which_players_impact_teams/player_impact_composition.png" width="900">
+</p>
+
+### As of Feb 10:
+<p align="center">
+  <img src="which_players_impact_teams/player_impact_composition2.png" width="900">
 </p>
 
 ### Notes

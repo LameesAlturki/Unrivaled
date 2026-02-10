@@ -36,10 +36,10 @@ def collect_player_box_scores():
 
     # Combining all players into a single DataFrame
     df_impact = pd.concat(all_players_impact, ignore_index=True)
-    df_impact.to_csv("player_box_scores_impact.csv", index=False)
+    df_impact.to_csv("which_players_impact_teams/player_box_scores_impact.csv", index=False)
 
 def analyse_player_impact():
-    df_impact = pd.read_csv("player_box_scores_impact.csv")
+    df_impact = pd.read_csv("which_players_impact_teams/player_box_scores_impact.csv")
 
     df_impact['SCORING_IMPACT'] = df_impact['PTS']
     df_impact['REBOUNDING_IMPACT'] = 1.5 * df_impact['OREB'] + df_impact['DREB']
@@ -65,11 +65,11 @@ def analyse_player_impact():
     # summary table
     player_summary = player_contributions.join(player_corr)
     # print(player_summary)
-    player_summary.to_csv("player_scoring_vs_rebounding_impact.csv")
+    player_summary.to_csv("which_players_impact_teams/player_scoring_vs_rebounding_impact.csv")
 
 def report():
-    df_impact = pd.read_csv("player_box_scores_impact.csv")
-    df_summary = pd.read_csv("player_scoring_vs_rebounding_impact.csv")
+    df_impact = pd.read_csv("which_players_impact_teams/player_box_scores_impact.csv")
+    df_summary = pd.read_csv("which_players_impact_teams/player_scoring_vs_rebounding_impact.csv")
 
     df_impact = df_impact.merge(df_summary[['PLAYER', 'SCORING_Corr2Impcat', 'REBOUNDING_Corr2Impcat']], 
                                 on='PLAYER', how='left')
@@ -113,7 +113,7 @@ def report():
     ax1.grid(axis='x', alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig('player_impact_composition.png', dpi=300, bbox_inches='tight')
+    plt.savefig('which_players_impact_teams/player_impact_composition.png', dpi=300, bbox_inches='tight')
     plt.show()
 
 if __name__ == "__main__":
