@@ -42,15 +42,9 @@ For each player across all games:
 
 ### Results
 
-### As of Jan 16:
-<p align="center">
-  <img src="which_players_impact_teams/player_impact_composition.png" width="900">
-</p>
-
-### As of Feb 10:
-<p align="center">
-  <img src="which_players_impact_teams/player_impact_composition2.png" width="900">
-</p>
+| Jan 16 | Feb 10 |
+|-------|-------|
+| <img src="which_players_impact_teams/player_impact_composition.png" width="400"> | <img src="which_players_impact_teams/player_impact_composition2.png" width="400"> |
 
 ### As of March, End of season!:
 <p align="center">
