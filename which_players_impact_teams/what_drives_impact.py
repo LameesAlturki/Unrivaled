@@ -19,7 +19,11 @@ def collect_player_box_scores():
     all_players_impact = []
     for player in players:
         # Reading box score table from the player page
-        tables = pd.read_html(player)
+        try:
+            tables = pd.read_html(player)
+        except Exception:
+            print(f"No box scores found for {player}")
+            continue
         box_scores = tables[0]
         player_name = player.split("/")[-1].split("-")[0].replace("-", " ").title() + " "+ player.split("/")[-1].split("-")[1].replace("-", " ").title()
         box_scores['PLAYER'] = player_name

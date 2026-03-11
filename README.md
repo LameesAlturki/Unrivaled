@@ -52,6 +52,11 @@ For each player across all games:
   <img src="which_players_impact_teams/player_impact_composition2.png" width="900">
 </p>
 
+### As of March, End of season!:
+<p align="center">
+  <img src="which_players_impact_teams/player_impact_composition3.png" width="900">
+</p>
+
 ### Notes
 
 - **Normalization**: All metrics are averaged per game, allowing fair comparison between players with different numbers of games played
@@ -70,3 +75,8 @@ For each player across all games:
 ## Data Source
 
 All data scraped from [Unrivaled Basketball Stats](https://www.unrivaled.basketball/stats/player)
+
+## Setup
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
